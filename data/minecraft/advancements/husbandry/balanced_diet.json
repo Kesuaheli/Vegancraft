@@ -137,6 +137,14 @@
       },
       "trigger": "minecraft:consume_item"
     },
+    "pumpkin_pie": {
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin_pie"]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "rotten_flesh": {
       "conditions": {
         "item": {
@@ -200,6 +208,7 @@
     ["baked_potato"],
     ["poisonous_potato"],
     ["golden_carrot"],
+    ["pumpkin_pie"],
     ["chorus_fruit"],
     ["beetroot"],
     ["beetroot_soup"],

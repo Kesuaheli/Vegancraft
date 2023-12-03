@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "b": {
+      "item": "minecraft:sweet_berries"
+    },
+    "f": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": ["sbs", "sas", "fff"],
+  "result": {
+    "item": "minecraft:cake"
+  },
+  "show_notification": true
+}
