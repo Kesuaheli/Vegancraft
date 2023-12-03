@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vegancraft:entities/spider_more_string"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/spider"
+}
