@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": {
+      "item": "minecraft:slime_block"
+    },
+    "o": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    " o ",
+    "oSo",
+    " o "
+  ],
+  "result": {
+    "item": "minecraft:honey_block"
+  },
+  "show_notification": true
+}
