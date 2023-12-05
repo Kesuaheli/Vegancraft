@@ -36,6 +36,6 @@ Also the **Pumpkin Pie** were changed to no longer require any eggs. Just replac
 
 ![pumpkin pie recipe](images/recipe_pumpkin_pie.png)
 
-The **Honey Block** got an *additional recipe*! You are now able to craft a slime block by surrounding a slime block with 4 orange dye like this:
+The **Honey Block** got an *additional recipe*! You are now able to craft a honey block by surrounding a slime block with 4 orange dye like this:
 
 ![honey block recipe](images/recipe_honey_block.png)
