@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vegancraft:string/azure_bluet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredients": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:azure_bluet"],
+            "count": 4
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ingredients"]],
+  "rewards": {
+    "recipes": ["vegancraft:string/azure_bluet"]
+  },
+  "sends_telemetry_event": false
+}

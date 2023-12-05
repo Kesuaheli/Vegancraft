@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vegancraft:string/oxeye_daisy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredients": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:oxeye_daisy"],
+            "count": 4
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ingredients"]],
+  "rewards": {
+    "recipes": ["vegancraft:string/oxeye_daisy"]
+  },
+  "sends_telemetry_event": false
+}

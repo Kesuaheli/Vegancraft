@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:glow_item_frame"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredients": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:glowstone_dust", "minecraft:item_frame"],
+            "count": 4
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ingredients"]],
+  "rewards": {
+    "recipes": ["minecraft:glow_item_frame"]
+  },
+  "sends_telemetry_event": false
+}

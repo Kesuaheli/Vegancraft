@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vegancraft:entities/witch_more_not_vegan_items"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/witch"
+}

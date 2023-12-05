@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "froglight",
+  "category": "building",
+  "key": {
+    "g": [
+      {
+        "item": "minecraft:purple_stained_glass"
+      },
+      {
+        "item": "minecraft:magenta_stained_glass"
+      }
+    ],
+    "l": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "pattern": [" l ", "lgl", " l "],
+  "result": {
+    "count": 4,
+    "item": "minecraft:pearlescent_froglight"
+  },
+  "show_notification": true
+}

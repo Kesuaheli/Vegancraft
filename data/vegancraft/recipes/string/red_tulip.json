@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "string",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:red_tulip"
+    }
+  },
+  "pattern": ["##", "##"],
+  "result": {
+    "count": 1,
+    "item": "minecraft:string"
+  },
+  "show_notification": true
+}

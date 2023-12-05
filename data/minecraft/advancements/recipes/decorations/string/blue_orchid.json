@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vegancraft:string/blue_orchid"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredients": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:blue_orchid"],
+            "count": 4
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ingredients"]],
+  "rewards": {
+    "recipes": ["vegancraft:string/blue_orchid"]
+  },
+  "sends_telemetry_event": false
+}

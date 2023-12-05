@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vegancraft:honey_bottle_from_sugar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredients": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:glass_bottle", "minecraft:sugar"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_ingredients"]],
+  "rewards": {
+    "recipes": ["vegancraft:honey_bottle_from_sugar"]
+  },
+  "sends_telemetry_event": false
+}

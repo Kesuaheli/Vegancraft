@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "froglight",
+  "category": "building",
+  "key": {
+    "g": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "l": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "pattern": [" l ", "lgl", " l "],
+  "result": {
+    "count": 4,
+    "item": "minecraft:verdant_froglight"
+  },
+  "show_notification": true
+}

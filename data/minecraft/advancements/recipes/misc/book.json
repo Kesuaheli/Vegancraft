@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:book"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:paper"],
+            "count": 3
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [["has_the_recipe", "has_paper"]],
+  "rewards": {
+    "recipes": ["minecraft:book"]
+  },
+  "sends_telemetry_event": false
+}
