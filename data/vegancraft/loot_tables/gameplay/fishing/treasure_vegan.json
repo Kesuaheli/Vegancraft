@@ -58,6 +58,10 @@
             }
           ],
           "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell"
         }
       ],
       "rolls": 1.0
